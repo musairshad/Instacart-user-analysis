@@ -79,7 +79,9 @@ Combined four datasets (products, aisles, orders, departments) and filtered for 
 <p align="center">
   <img src="https://github.com/musairshad/Instacart-user-analysis/blob/main/Images/xgboost%20before%20and%20after%20tuning.png?raw=true" width="400" height="300" alt="Description of Image">
 </p>
+
 #### Naive Bayes Tuned
+
 - Naïve Bayes improved test accuracy (58% to 68%)
 <p align="center">
   <img src="https://github.com/musairshad/Instacart-user-analysis/blob/main/Images/naive%20baies%20before%20and%20after%20tuning.png?raw=true" width="400" height="300" alt="Description of Image">
@@ -90,8 +92,10 @@ Combined four datasets (products, aisles, orders, departments) and filtered for 
 <p align="center">
   <img src="https://github.com/musairshad/Instacart-user-analysis/blob/main/Images/logistic%20regression%20before%20and%20after%20tuning.png?raw=true" width="400" height="300" alt="Description of Image">
 </p>
+
 ### Conclusion
-n this project, our objective was to classify whether a vegetarian user is placing their first order or re-ordering a product. After merging and preprocessing the datasets, we conducted exploratory data analysis to understand the patterns and user behaviour in the data. We visualized the most ordered products, analyzed the frequency of orders by days of the week, and identified the distribution of days since prior orders. We also segmented the data to differentiate between vegetarian and non-vegetarian orders. Utilizing machine learning models, including Stacking Classifier, Random Forest, Logistic Regression, and XGBoost, we achieved varying levels of accuracy. Hyperparameter tuning of the Tuned XGBoost, resulting in an accuracy improvement from 74% to 76%, Naïve Bayes 63% to 66% and logistic regression 58% to 70%. Our analysis also showed that most users reorder within 4-8 days of their first order. Despite encountering some imbalance in the data, our analysis provides valuable insights for understanding user behavior in online food ordering platforms and lays the foundation for building predictive models to enhance customer experience and optimize business operations.
+
+In this project, our objective was to classify whether a vegetarian user is placing their first order or re-ordering a product. After merging and preprocessing the datasets, we conducted exploratory data analysis to understand the patterns and user behaviour in the data. We visualized the most ordered products, analyzed the frequency of orders by days of the week, and identified the distribution of days since prior orders. We also segmented the data to differentiate between vegetarian and non-vegetarian orders. Utilizing machine learning models, including Stacking Classifier, Random Forest, Logistic Regression, and XGBoost, we achieved varying levels of accuracy. Hyperparameter tuning of the Tuned XGBoost, resulting in an accuracy improvement from 74% to 76%, Naïve Bayes 63% to 66% and logistic regression 58% to 70%. Our analysis also showed that most users reorder within 4-8 days of their first order. Despite encountering some imbalance in the data, our analysis provides valuable insights for understanding user behavior in online food ordering platforms and lays the foundation for building predictive models to enhance customer experience and optimize business operations.
 
 
 
